@@ -36,30 +36,104 @@ try:
     )
 
     # 点击订单交易按钮
-    order_button = WebDriverWait(driver, 5).until(
+    warehouse_receipt_system = WebDriverWait(driver, 5).until(
         EC.element_to_be_clickable((By.XPATH, "//a[contains(@onclick, 'menuV2.htm') and contains(text(), '仓单系统')]"))
     )
-    order_button.click()
-    print("成功进入仓单系统页面")
+    warehouse_receipt_system.click()
+    print("成功进入仓单系统主页面")
     time.sleep(2)
 
     # 点击仓库管理按钮
-    ctbasegoods_button = WebDriverWait(driver, 5).until(
+    warehouse_management = WebDriverWait(driver, 5).until(
         EC.element_to_be_clickable((By.CSS_SELECTOR, "a[title='仓库管理'][name*='warehouse'][uniq='15332']"))
     )
-    ctbasegoods_button.click()
+    warehouse_management.click()
     print("成功进入仓库管理页面")
     time.sleep(2)
 
     # 点击库区管理按钮
-    ctbasegoods_button = WebDriverWait(driver, 5).until(
+    Reservoir_area_management = WebDriverWait(driver, 5).until(
         EC.element_to_be_clickable((By.CSS_SELECTOR, "a[title='库区管理'][name*='place'][uniq='15337']"))
     )
-    ctbasegoods_button.click()
+    Reservoir_area_management.click()
     print("成功进入库区管理页面")
     time.sleep(2)
 
-    # 定位并点击「仓单历史」菜单（核心代码）
+    # 定位并点击「仓单管理」菜单
+    warehouse_receipt_management = WebDriverWait(driver, 5).until(
+        EC.element_to_be_clickable(
+            (By.XPATH, "//h3[text()='仓单管理']")
+        )
+    )
+    warehouse_receipt_management.click()
+    print("成功点击仓单管理菜单")
+    time.sleep(2)
+
+    # 点击库存仓单审核按钮
+    Inventory_warehouse_receipt_review = WebDriverWait(driver, 5).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, "a[title='库存仓单审核'][name*='whReceiptBatch'][uniq='15343']"))
+    )
+    Inventory_warehouse_receipt_review.click()
+    print("成功进入库存仓单审核页面")
+    time.sleep(2)
+
+    # 点击预制仓单审核按钮
+    Inventory_warehouse_receipt_review = WebDriverWait(driver, 5).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, "a[title='预制仓单审核'][name*='inventory'][uniq='15346']"))
+    )
+    Inventory_warehouse_receipt_review.click()
+    print("成功进入预制仓单审核页面")
+    time.sleep(2)
+
+    # 点击仓单管理按钮
+    Inventory_warehouse_receipt_review = WebDriverWait(driver, 5).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, "a[title='仓单管理'][name*='whReceipt'][uniq='15351']"))
+    )
+    Inventory_warehouse_receipt_review.click()
+    print("成功进入仓单管理页面")
+    time.sleep(2)
+
+    # 点击仓单注销按钮
+    Inventory_warehouse_receipt_review = WebDriverWait(driver, 5).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, "a[title='仓单注销'][name*='whCancel'][uniq='15357']"))
+    )
+    Inventory_warehouse_receipt_review.click()
+    print("成功进入仓单注销页面")
+    time.sleep(2)
+
+    # 点击仓单提货按钮
+    Inventory_warehouse_receipt_review = WebDriverWait(driver, 5).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, "a[title='仓单提货'][name*='whPickApply'][uniq='15360']"))
+    )
+    Inventory_warehouse_receipt_review.click()
+    print("成功进入仓单提货页面")
+    time.sleep(2)
+
+    # 点击仓库缩期按钮
+    Inventory_warehouse_receipt_review = WebDriverWait(driver, 5).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, "a[title='仓库缩期'][name*='whreduce'][uniq='15363']"))
+    )
+    Inventory_warehouse_receipt_review.click()
+    print("成功进入仓库缩期页面")
+    time.sleep(2)
+
+    # 点击厂库缩期按钮
+    Inventory_warehouse_receipt_review = WebDriverWait(driver, 5).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, "a[title='厂库缩期'][name*='whreduce'][uniq='15365']"))
+    )
+    Inventory_warehouse_receipt_review.click()
+    print("成功进入厂库缩期页面")
+    time.sleep(2)
+
+    # 点击仓单展期按钮
+    Inventory_warehouse_receipt_review = WebDriverWait(driver, 5).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, "a[title='仓单展期'][name*='whextend'][uniq='15367']"))
+    )
+    Inventory_warehouse_receipt_review.click()
+    print("成功进入仓单展期页面")
+    time.sleep(2)
+
+    # 定位并点击「仓单历史」菜单
     warehouse_receipt_history = WebDriverWait(driver, 5).until(
         EC.element_to_be_clickable(
             (By.XPATH, "//h3[text()='仓单历史']")  # 任选上述定位方式
