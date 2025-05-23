@@ -100,7 +100,7 @@ try:
         # 定位并切换到第三个 iframe（使用更宽松的 CSS 选择器）
         third_iframe = WebDriverWait(driver, 5).until(
             EC.frame_to_be_available_and_switch_to_it(
-                (By.CSS_SELECTOR, "iframe[src*='goodsReference.htm']")  # 使用模糊匹配
+                (By.CSS_SELECTOR, "iframe[src*='goodsReference.htm']")
             )
         )
         print("成功切换到第三个 iframe")
@@ -126,18 +126,18 @@ try:
 
         # 等待商品代码输入框加载完成，并输入商品代码
         goods_code_input = WebDriverWait(driver, 5).until(
-            EC.presence_of_element_located((By.ID, "goodsCode"))  # 替换为商品代码输入框的实际 ID 或选择器
+            EC.presence_of_element_located((By.ID, "goodsCode"))
         )
-        goods_code_input.clear()  # 清空输入框（如果需要）
-        goods_code_input.send_keys("zdhcs520")  # 输入商品代码
+        goods_code_input.clear()
+        goods_code_input.send_keys("zdhcs520")
         print("成功输入商品代码")
 
         # 等待商品名称输入框加载完成，并输入商品名称
         goods_name_input = WebDriverWait(driver, 5).until(
-            EC.presence_of_element_located((By.ID, "goodsName"))  # 替换为商品名称输入框的实际 ID 或选择器
+            EC.presence_of_element_located((By.ID, "goodsName"))
         )
-        goods_name_input.clear()  # 清空输入框（如果需要）
-        goods_name_input.send_keys("自动化新增商品0520")  # 输入商品名称
+        goods_name_input.clear()
+        goods_name_input.send_keys("自动化新增商品0520")
         print("成功输入商品名称")
 
     except Exception as e:
@@ -236,22 +236,20 @@ try:
         date_input.click()
         print("成功触发日期控件弹出")
 
-        # 定位并切换到第四个 iframe（使用更宽松的 CSS 选择器）
+        # 定位并切换到第四个 iframe
         four_iframe = WebDriverWait(driver, 5).until(
             EC.frame_to_be_available_and_switch_to_it(
-                (By.CSS_SELECTOR, "iframe[src*='My97DatePicker.html']")  # 使用模糊匹配
+                (By.CSS_SELECTOR, "iframe[src*='My97DatePicker.html']")
             )
         )
         print("成功切换到第四个 iframe")
 
-        # =================== 定位上市日期选择器元素 ===================
-        # 等待上市上市日期选择器完全加载
+        # 定位上市日期选择器元素
         WebDriverWait(driver, 5).until(
             EC.presence_of_element_located((By.CLASS_NAME, "Wselday"))
         )
 
-        # =================== 选择指定日期 ===================
-        # 定位目标日期元素（2025年4月29日）
+        # 定位目标日期元素
         target_date = WebDriverWait(driver, 5).until(
             EC.element_to_be_clickable(
                 (By.XPATH, "//td[@class='Wselday' and text()='23' and contains(@onclick,'2025,5,23')]")
@@ -282,16 +280,15 @@ try:
         date_input.click()
         print("成功触发最后交易日期控件弹出")
 
-        # 定位并切换到第四个 iframe（使用更宽松的 CSS 选择器）
+        # 定位并切换到第四个 iframe
         four_iframe = WebDriverWait(driver, 5).until(
             EC.frame_to_be_available_and_switch_to_it(
-                (By.CSS_SELECTOR, "iframe[src*='My97DatePicker.html']")  # 使用模糊匹配
+                (By.CSS_SELECTOR, "iframe[src*='My97DatePicker.html']")
             )
         )
         print("成功切换到第四个 iframe")
 
-        # =================== 选择指定日期 ===================
-        # 定位目标日期元素（2025年4月30日）
+        # 定位目标日期元素
         target_date = WebDriverWait(driver, 5).until(
             EC.element_to_be_clickable(
                 (By.XPATH, "//td[@class='Wday' and text()='26' and contains(@onclick,'2025,5,26')]")
@@ -322,16 +319,15 @@ try:
         date_input.click()
         print("成功触发交收开始日期控件弹出")
 
-        # 定位并切换到第四个 iframe（使用更宽松的 CSS 选择器）
+        # 定位并切换到第四个 iframe
         four_iframe = WebDriverWait(driver, 5).until(
             EC.frame_to_be_available_and_switch_to_it(
-                (By.CSS_SELECTOR, "iframe[src*='My97DatePicker.html']")  # 使用模糊匹配
+                (By.CSS_SELECTOR, "iframe[src*='My97DatePicker.html']")
             )
         )
         print("成功切换到第四个 iframe")
 
-        # =================== 选择指定日期 ===================
-        # 定位目标日期元素（2025年5月1日）
+        # 定位目标日期元素
         target_date = WebDriverWait(driver, 5).until(
             EC.element_to_be_clickable(
                 (By.XPATH, "//td[@class='Wselday' and text()='27' and contains(@onclick,'2025,5,27')]")
@@ -362,16 +358,15 @@ try:
         date_input.click()
         print("成功触发交收结束日期控件弹出")
 
-        # 定位并切换到第四个 iframe（使用更宽松的 CSS 选择器）
+        # 定位并切换到第四个 iframe
         four_iframe = WebDriverWait(driver, 5).until(
             EC.frame_to_be_available_and_switch_to_it(
-                (By.CSS_SELECTOR, "iframe[src*='My97DatePicker.html']")  # 使用模糊匹配
+                (By.CSS_SELECTOR, "iframe[src*='My97DatePicker.html']")
             )
         )
         print("成功切换到第四个 iframe")
 
-        # =================== 选择指定日期 ===================
-        # 定位交收结束日期日期元素（2025年5月5日）
+        # 定位交收结束日期日期元素
         target_date = WebDriverWait(driver, 5).until(
             EC.element_to_be_clickable(
                 (By.XPATH, "//td[@class='Wday' and text()='30' and contains(@onclick,'2025,5,30')]")
@@ -402,16 +397,15 @@ try:
         date_input.click()
         print("成功触发双向持单截止日期日期控件弹出")
 
-        # 定位并切换到第四个 iframe（使用更宽松的 CSS 选择器）
+        # 定位并切换到第四个 iframe
         four_iframe = WebDriverWait(driver, 5).until(
             EC.frame_to_be_available_and_switch_to_it(
-                (By.CSS_SELECTOR, "iframe[src*='My97DatePicker.html']")  # 使用模糊匹配
+                (By.CSS_SELECTOR, "iframe[src*='My97DatePicker.html']")
             )
         )
         print("成功切换到第四个 iframe")
 
-        # =================== 选择指定日期 ===================
-        # 定位双向持单截止日期元素（2025年4月29日）
+        # 定位双向持单截止日期元素
         target_date = WebDriverWait(driver, 5).until(
             EC.element_to_be_clickable(
                 (By.XPATH, "//td[@class='Wday' and text()='26' and contains(@onclick,'2025,5,26')]")
@@ -448,10 +442,10 @@ try:
         driver.switch_to.default_content()
         driver.switch_to.frame(first_iframe)
 
-        # 定位并切换到第五个 iframe（使用更宽松的 CSS 选择器）
+        # 定位并切换到第五个 iframe
         five_iframe = WebDriverWait(driver, 5).until(
             EC.frame_to_be_available_and_switch_to_it(
-                (By.XPATH, "//iframe[contains(@src, 'userTypeChooseReference.htm')]")  # 使用模糊匹配
+                (By.XPATH, "//iframe[contains(@src, 'userTypeChooseReference.htm')]")
             )
         )
         print("成功切换到第五个 iframe")
@@ -469,7 +463,7 @@ try:
 
     except Exception as e:
         print(f"切换到第五个 iframe 失败：{str(e)}")
-        raise  # 抛出异常以便外部捕获
+        raise
 
     try:
         # 先返回到默认顶层框架，确保后续定位不受嵌套影响

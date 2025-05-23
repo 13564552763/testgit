@@ -7,13 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69149290-6f72-40b5-b709-8e5e70606f05" name="更改" comment="222">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/订单通-交收管理+调货管理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/订单通-后台查询.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/采销通-商品详情.py" afterDir="false" />
+    <list default="true" id="69149290-6f72-40b5-b709-8e5e70606f05" name="更改" comment="333">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/订单通-交收管理.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/订单通-商品新增.py" beforeDir="false" afterPath="$PROJECT_DIR$/订单通-商品新增.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +26,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -44,8 +45,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.main.executor": "Run",
-    "Python.仓单管理.executor": "Run",
+    "Python.11.executor": "Run",
+    "Python.main.executor": "Debug",
+    "Python.仓单管理.executor": "Debug",
     "Python.查看详情.executor": "Run",
     "Python.统一交收.executor": "Run",
     "Python.订单通-交收管理.executor": "Run",
@@ -100,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747898871548</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="333">
+      <option name="closed" value="true" />
+      <created>1747984115545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747984115545</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +203,19 @@
     <MESSAGE value="新增采销通-商品新增" />
     <MESSAGE value="111" />
     <MESSAGE value="222" />
-    <option name="LAST_COMMIT_MESSAGE" value="222" />
+    <MESSAGE value="333&#10;&#10;Signed-off-by: Administrator &lt;xuetaocwy@163.com&gt;" />
+    <MESSAGE value="333" />
+    <option name="LAST_COMMIT_MESSAGE" value="333" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

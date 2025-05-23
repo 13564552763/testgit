@@ -1,5 +1,4 @@
 import subprocess
-
 test_files = [
     "采销通-商品新增.py",
     "订单通-商品新增.py",
@@ -7,8 +6,7 @@ test_files = [
     "订单通-交收管理+调货管理.py",
     "仓单管理.py",
     "统一交收.py",
-    "仓单管理.py"
-]
+    "仓单管理.py"]
 
 for file in test_files:
     try:
