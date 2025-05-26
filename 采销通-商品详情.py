@@ -67,14 +67,32 @@ try:
     )
     print("成功切换到第二个 iframe")
 
-    detail_button = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable(
-            (By.XPATH, '//a[@href="https://pspms-uat2.tjpgx.cn/base/ctbasegoodsinit/view.htm?id=1306"]')
+    try:
+        # 显式等待并获取所有符合条件的元素
+        buttons = WebDriverWait(driver, 15).until(
+            EC.presence_of_all_elements_located(
+                (By.XPATH, '//a[contains(@href, "view") and text()="详情"]')
+            )
         )
-    )
-    detail_button.click()
-    print("成功打开详情页面")
-    time.sleep(5)
+
+        # 点击第一个找到的符合条件的按钮
+        if buttons:
+            # 滚动到元素可见（应对遮挡问题）
+            driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", buttons[0])
+
+            # 带重试机制的点击
+            WebDriverWait(driver, 5).until(
+                EC.element_to_be_clickable(buttons[0])
+            ).click()
+
+            print("成功点击第一个详情按钮，进入商品详情页")
+        else:
+            print("未找到符合条件的详情按钮")
+
+        time.sleep(3)
+
+    except Exception as e:
+        print(f"操作失败: {str(e)}")
 
     try:
         return_button = WebDriverWait(driver, 10).until(
