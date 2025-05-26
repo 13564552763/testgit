@@ -129,7 +129,7 @@ try:
             EC.presence_of_element_located((By.ID, "goodsCode"))
         )
         goods_code_input.clear()
-        goods_code_input.send_keys("zdhcs520")
+        goods_code_input.send_keys("Automation01")
         print("成功输入商品代码")
 
         # 等待商品名称输入框加载完成，并输入商品名称
@@ -137,7 +137,7 @@ try:
             EC.presence_of_element_located((By.ID, "goodsName"))
         )
         goods_name_input.clear()
-        goods_name_input.send_keys("自动化新增商品0520")
+        goods_name_input.send_keys("自动化01")
         print("成功输入商品名称")
 
     except Exception as e:
