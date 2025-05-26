@@ -264,12 +264,9 @@ try:
 
         # 选择指定日期
         # 定位目标日期元素
-        target_date = WebDriverWait(driver, 5).until(
-            EC.element_to_be_clickable(
-                (By.XPATH, "//td[@class='Wselday' and text()='23' and contains(@onclick,'2025,5,23')]")
-            )
+        target_date = WebDriverWait(driver, 10).until(
+               EC.element_to_be_clickable((By.ID, "dpOkInput"))
         )
-
         # 点击选择上市日期
         target_date.click()
         print("成功选择上市日期")
@@ -304,12 +301,9 @@ try:
 
         # 选择指定日期
         # 定位目标日期元素
-        target_date = WebDriverWait(driver, 5).until(
-            EC.element_to_be_clickable(
-                (By.XPATH, "//td[@class='Wday' and text()='26' and contains(@onclick,'2025,5,26')]")
-            )
+        target_date = WebDriverWait(driver, 10).until(
+               EC.element_to_be_clickable((By.ID, "dpOkInput"))
         )
-
         # 点击选择最后交易日期
         target_date.click()
         print("成功选择最后委托日期")
@@ -344,12 +338,9 @@ try:
 
         # 选择指定日期
         # 定位目标日期元素
-        target_date = WebDriverWait(driver, 5).until(
-            EC.element_to_be_clickable(
-                (By.XPATH, "//td[@class='Wselday' and text()='27' and contains(@onclick,'2025,5,27')]")
-            )
+        target_date = WebDriverWait(driver, 10).until(
+               EC.element_to_be_clickable((By.ID, "dpOkInput"))
         )
-
         # 点击选择交收开始日期
         target_date.click()
         print("成功选择交收开始日期")
@@ -384,10 +375,8 @@ try:
 
         # 选择指定日期
         # 定位交收结束日期日期元素
-        target_date = WebDriverWait(driver, 5).until(
-            EC.element_to_be_clickable(
-                (By.XPATH, "//td[@class='Wday' and text()='30' and contains(@onclick,'2025,5,30')]")
-            )
+        target_date = WebDriverWait(driver, 10).until(
+               EC.element_to_be_clickable((By.ID, "dpOkInput"))
         )
         # 点击选择交收结束日期
         target_date.click()
@@ -423,12 +412,9 @@ try:
 
         # =================== 选择指定日期 ===================
         # 定位双向持单截止日期元素（2025年4月29日）
-        target_date = WebDriverWait(driver, 5).until(
-            EC.element_to_be_clickable(
-                (By.XPATH, "//td[@class='Wday' and text()='26' and contains(@onclick,'2025,5,26')]")
-            )
+        target_date = WebDriverWait(driver, 10).until(
+               EC.element_to_be_clickable((By.ID, "dpOkInput"))
         )
-
         # 点击选择双向持单截止日期
         target_date.click()
         print("成功选择双向持单截止日期")

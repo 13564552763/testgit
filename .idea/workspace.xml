@@ -9,6 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="69149290-6f72-40b5-b709-8e5e70606f05" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/订单通-商品新增.py" beforeDir="false" afterPath="$PROJECT_DIR$/订单通-商品新增.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/采销通-商品新增.py" beforeDir="false" afterPath="$PROJECT_DIR$/采销通-商品新增.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,26 +43,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.11.executor": "Run",
-    "Python.main.executor": "Debug",
-    "Python.仓单管理.executor": "Debug",
-    "Python.查看详情.executor": "Run",
-    "Python.统一交收.executor": "Run",
-    "Python.订单通-交收管理.executor": "Run",
-    "Python.订单通-商品新增.executor": "Run",
-    "Python.采销通-商品新增.executor": "Run",
-    "Python.采销通-商品详情.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/test_商品新增【采销通】",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.仓单管理.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.查看详情.executor&quot;: &quot;Run&quot;,
+    &quot;Python.统一交收.executor&quot;: &quot;Run&quot;,
+    &quot;Python.订单通-交收管理.executor&quot;: &quot;Run&quot;,
+    &quot;Python.订单通-商品新增.executor&quot;: &quot;Run&quot;,
+    &quot;Python.采销通-商品新增.executor&quot;: &quot;Run&quot;,
+    &quot;Python.采销通-商品详情.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/test_商品新增【采销通】&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -117,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747989547281</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="444">
+      <option name="closed" value="true" />
+      <created>1747989833671</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747989833671</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +222,8 @@
     <MESSAGE value="222" />
     <MESSAGE value="333&#10;&#10;Signed-off-by: Administrator &lt;xuetaocwy@163.com&gt;" />
     <MESSAGE value="333" />
-    <option name="LAST_COMMIT_MESSAGE" value="333" />
+    <MESSAGE value="444" />
+    <option name="LAST_COMMIT_MESSAGE" value="444" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
