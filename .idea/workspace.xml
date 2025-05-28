@@ -9,6 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="69149290-6f72-40b5-b709-8e5e70606f05" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/订单通-商品新增.py" beforeDir="false" afterPath="$PROJECT_DIR$/订单通-商品新增.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/采销通-商品详情.py" beforeDir="false" afterPath="$PROJECT_DIR$/采销通-商品详情.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +54,7 @@
     "Python.订单通-商品上市数据录入.executor": "Run",
     "Python.订单通-商品上市数据录入并提交.executor": "Run",
     "Python.订单通-商品新增.executor": "Run",
+    "Python.订单通商品新增-待上市.executor": "Run",
     "Python.采销通-商品新增.executor": "Run",
     "Python.采销通-商品详情.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -152,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748247503340</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="555">
+      <option name="closed" value="true" />
+      <created>1748248868415</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1748248868415</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

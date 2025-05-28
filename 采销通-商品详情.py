@@ -80,7 +80,7 @@ try:
             # 滚动到元素可见（应对遮挡问题）
             driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", buttons[0])
 
-            # 带重试机制的点击
+            # 带重试机制的点击  定位按钮位置，从0开始
             WebDriverWait(driver, 5).until(
                 EC.element_to_be_clickable(buttons[0])
             ).click()
