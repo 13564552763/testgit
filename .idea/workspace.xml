@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69149290-6f72-40b5-b709-8e5e70606f05" name="更改" comment="">
+    <list default="true" id="69149290-6f72-40b5-b709-8e5e70606f05" name="更改" comment="666">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/订单通-商品新增.py" beforeDir="false" afterPath="$PROJECT_DIR$/订单通-商品新增.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/采销通-商品详情.py" beforeDir="false" afterPath="$PROJECT_DIR$/采销通-商品详情.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,29 +42,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.11.executor": "Run",
-    "Python.main.executor": "Debug",
-    "Python.仓单管理.executor": "Debug",
-    "Python.查看详情.executor": "Run",
-    "Python.统一交收.executor": "Run",
-    "Python.订单通-交收管理.executor": "Run",
-    "Python.订单通-商品上市数据录入.executor": "Run",
-    "Python.订单通-商品上市数据录入并提交.executor": "Run",
-    "Python.订单通-商品新增.executor": "Run",
-    "Python.订单通商品新增-待上市.executor": "Run",
-    "Python.采销通-商品新增.executor": "Run",
-    "Python.采销通-商品详情.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/test_商品新增【采销通】",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.仓单管理.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.查看详情.executor&quot;: &quot;Run&quot;,
+    &quot;Python.统一交收.executor&quot;: &quot;Run&quot;,
+    &quot;Python.订单通-交收管理.executor&quot;: &quot;Run&quot;,
+    &quot;Python.订单通-商品上市数据录入.executor&quot;: &quot;Run&quot;,
+    &quot;Python.订单通-商品上市数据录入并提交.executor&quot;: &quot;Run&quot;,
+    &quot;Python.订单通-商品新增.executor&quot;: &quot;Run&quot;,
+    &quot;Python.订单通商品新增-待上市.executor&quot;: &quot;Run&quot;,
+    &quot;Python.采销通-商品新增.executor&quot;: &quot;Run&quot;,
+    &quot;Python.采销通-商品详情.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/test_商品新增【采销通】&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -162,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748248868415</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="666">
+      <option name="closed" value="true" />
+      <created>1748421884567</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1748421884567</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,7 +266,8 @@
     <MESSAGE value="333" />
     <MESSAGE value="444" />
     <MESSAGE value="555" />
-    <option name="LAST_COMMIT_MESSAGE" value="555" />
+    <MESSAGE value="666" />
+    <option name="LAST_COMMIT_MESSAGE" value="666" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
