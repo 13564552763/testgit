@@ -1,4 +1,4 @@
-# 需修改商品名称与商品代码1
+# 需修改商品名称与商品代码
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
