@@ -37,7 +37,7 @@ try:
     )
     order_button.click()
     print("成功进入订单交易页面")
-    time.sleep(2)
+    time.sleep(5)
 
     # 定位并点击「后台查询」菜单
     Back_end_query = WebDriverWait(driver, 5).until(
@@ -46,7 +46,7 @@ try:
     )
     Back_end_query.click()
     print("成功点击后台查询菜单")
-    time.sleep(2)
+    time.sleep(5)
 
     # 点击当日委托查询按钮
     Today_orders_inquiry = WebDriverWait(driver, 5).until(
@@ -54,7 +54,7 @@ try:
     )
     Today_orders_inquiry.click()
     print("成功进入当日委托查询页面")
-    time.sleep(2)
+    time.sleep(5)
 
     # 点击历史委托查询按钮
     Historical_order_inquiry = WebDriverWait(driver, 5).until(
@@ -62,7 +62,7 @@ try:
     )
     Historical_order_inquiry.click()
     print("成功进入历史委托查询页面")
-    time.sleep(2)
+    time.sleep(5)
 
     # 点击当日代转委托查询按钮
     Same_day_proxy_transfer_inquiry = WebDriverWait(driver, 5).until(
@@ -70,7 +70,7 @@ try:
     )
     Same_day_proxy_transfer_inquiry.click()
     print("成功进入当日代转委托查询页面")
-    time.sleep(2)
+    time.sleep(5)
 
     # 点击历史代转委托查询按钮
     Historical_proxy_transfer_inquiry = WebDriverWait(driver, 5).until(
@@ -78,7 +78,7 @@ try:
     )
     Historical_proxy_transfer_inquiry.click()
     print("成功进入历史代转委托查询页面")
-    time.sleep(2)
+    time.sleep(5)
 
     # 点击当日成交查询按钮
     Daily_transaction_query = WebDriverWait(driver, 5).until(
@@ -86,7 +86,7 @@ try:
     )
     Daily_transaction_query.click()
     print("成功进入当日成交查询页面")
-    time.sleep(2)
+    time.sleep(5)
 
     # 点击历史成交查询按钮
     Historical_transaction_inquiry = WebDriverWait(driver, 5).until(
@@ -94,7 +94,7 @@ try:
     )
     Historical_transaction_inquiry.click()
     print("成功进入历史成交查询页面")
-    time.sleep(2)
+    time.sleep(5)
 
     # 点击当日持单明细查询按钮
     Daily_transaction_details_inquiry = WebDriverWait(driver, 5).until(
@@ -102,7 +102,7 @@ try:
     )
     Daily_transaction_details_inquiry.click()
     print("成功进入当日持单明细查询页面")
-    time.sleep(2)
+    time.sleep(5)
 
     # 点击历史到期意向查询按钮
     Historical_expiration_intention_inquiry = WebDriverWait(driver, 5).until(
@@ -110,7 +110,7 @@ try:
     )
     Historical_expiration_intention_inquiry.click()
     print("成功进入历史到期意向查询页面")
-    time.sleep(2)
+    time.sleep(5)
 
     # 点击历史提前交收查询按钮
     Historical_early_settlement_inquiry = WebDriverWait(driver, 5).until(
@@ -118,7 +118,7 @@ try:
     )
     Historical_early_settlement_inquiry.click()
     print("成功进入历史提前交收查询页面")
-    time.sleep(2)
+    time.sleep(5)
 
     # 点击历史持单汇总查询按钮
     Historical_order_summary_query = WebDriverWait(driver, 5).until(
@@ -126,7 +126,7 @@ try:
     )
     Historical_order_summary_query.click()
     print("成功进入历史持单汇总查询页面")
-    time.sleep(2)
+    time.sleep(10)
 
     # 点击商品查询按钮
     Product_search = WebDriverWait(driver, 5).until(
@@ -134,7 +134,7 @@ try:
     )
     Product_search.click()
     print("成功进入商品查询页面")
-    time.sleep(2)
+    time.sleep(5)
 
     # 点击成交统计按钮
     Transaction_statistics = WebDriverWait(driver, 5).until(
@@ -142,7 +142,7 @@ try:
     )
     Transaction_statistics.click()
     print("成功进入成交统计页面")
-    time.sleep(2)
+    time.sleep(5)
 
     # 点击提前交收摘单历史列表按钮
     Early_settlement_pick_list_history = WebDriverWait(driver, 5).until(
@@ -150,7 +150,7 @@ try:
     )
     Early_settlement_pick_list_history.click()
     print("成功进入提前交收摘单历史列表页面")
-    time.sleep(2)
+    time.sleep(5)
 
     # 点击历史到期意向申报查询按钮
     Historical_maturity_intention_declaration_inquiry = WebDriverWait(driver, 5).until(
@@ -158,7 +158,7 @@ try:
     )
     Historical_maturity_intention_declaration_inquiry.click()
     print("成功进入历史到期意向申报查询页面")
-    time.sleep(2)
+    time.sleep(5)
 
     # 点击最后交易日持单查询按钮
     Query_for_holding_positions_on_the_last_trading_day = WebDriverWait(driver, 5).until(
@@ -166,7 +166,7 @@ try:
     )
     Query_for_holding_positions_on_the_last_trading_day.click()
     print("成功进入最后交易日持单查询页面")
-    time.sleep(2)
+    time.sleep(5)
 
 except Exception as e:
     print(f"操作失败：{str(e)}")

@@ -109,11 +109,11 @@ try:
         # 选择参数商品
         select_button = WebDriverWait(driver, 5).until(
             EC.element_to_be_clickable(
-                (By.XPATH, "//a[contains(@onclick, '测试液化天然气5月下') and text()='选择']")
+                (By.XPATH, "//a[contains(@onclick, '胖阿硕的压测商品') and text()='选择']")
             )
         )
         select_button.click()
-        print("成功选择商品 测试液化天然气5月下")
+        print("成功选择商品 胖阿硕的压测商品")
 
     except Exception as e:
         print(f"切换到第三个 iframe 失败：{str(e)}")
@@ -130,7 +130,7 @@ try:
             EC.presence_of_element_located((By.ID, "goodsCode"))
         )
         goods_code_input.clear()
-        goods_code_input.send_keys("Automation04")
+        goods_code_input.send_keys("Automation12")
         print("成功输入商品代码")
 
         # 等待商品名称输入框加载完成，并输入商品名称
@@ -138,7 +138,7 @@ try:
             EC.presence_of_element_located((By.ID, "goodsName"))
         )
         goods_name_input.clear()
-        goods_name_input.send_keys("自动化04")
+        goods_name_input.send_keys("自动化12")
         print("成功输入商品名称")
 
     except Exception as e:
